@@ -1,12 +1,16 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!publications/_template/"
+    - "!people/_template/"
 
 website:
   title: "Neu4mes Research Group"
   description: "Research Group focused on Phisically Informed Neural Networks for Mechanical and Mechatronic Systems"
   favicon: /assets/images/logomodely.png
   margin-header: |
-    ![Logo image](/assets/images/logomodely.png)
+    ![](/assets/images/logomodely.png)
   # image: /assets/images/<file>.png
   # site-url: https://<owner>.github.io/<repository>
   # repo-url: https://github.com/<owner>/<repository>
@@ -31,8 +35,8 @@ website:
         text: About
       - href: publications.qmd
         text: Publications
-      - href: members.qmd
-        text: Members
+      - href: people/index.qmd
+        text: People
       - href: contacts.qmd
         text: Contacts
 

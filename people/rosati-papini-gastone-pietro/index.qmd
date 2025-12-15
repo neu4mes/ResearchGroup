@@ -1,0 +1,61 @@
+---
+title: &TITLE Gastone Pietro Rosati Papini
+last: Piazza
+first: Mattia
+people_group: "pi"
+email: "gastone.rosatipapini@unitn.it"
+education:
+  - Ph.D. in Emerging Digital Technologies | Sant’Anna University | 2016 <br> M.S. Automation Engineering | University of Pisa | 2011 <br> B.S. Software Engineering | University of Pisa | 2007
+
+subtitle: "Associate Professor in Applied mechanics, University of Trento<br> Post-Doc, PERCRO laboratory, Sant’Anna University"
+description: ""
+project: "neu4mes"
+affiliation: University of Trento
+image: avatar.jpg
+# listing:
+#   id: pubs
+#   template: ../../_ejs/publications-people.ejs 
+#   contents: 
+#     - "../../../publications/**/*.qmd"
+#     - "!../../../publications/_template/"
+#   sort: "pub_number desc"
+#   # sort-ui: true
+#   filter-ui: true
+#   include:
+#     author: *TITLE
+#   fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:gastone.rosatipapini@unitn.it
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=LcCK9FkAAAAJ&hl=en&oi=ao
+    - icon: github
+      text: GitHub 
+      href: https://github.com/tonegas
+---
+
+<hr>
+
+
+:::{#about}
+
+Gastone Pietro Rosati Papini is an Associate Professor in the Department of Industrial Engineering at the University of Trento, with over a decade of experience in advanced control systems and machine learning techniques for autonomous system. His research bridges the fields of applied mechanics, control theory, and machine learning, with a focus on developing intelligent and adaptive models and controllers. Specifically, He aims to integrate classical model-based principles with data-driven techniques to create innovative solutions for model and control physical systems.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

@@ -1,7 +1,7 @@
 ---
-title: "ResearchGroup"
+title: "Neu4mes Research Group"
 ---
 
-This is a Quarto website.
+Welcome to the Neu4mes Research Group website! 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+We are dedicated to advancing the field of physically informed neural networks for mechanical and mechatronic systems. Our team of researchers and students work collaboratively to develop innovative solutions that bridge the gap between traditional engineering methods and modern machine learning techniques.

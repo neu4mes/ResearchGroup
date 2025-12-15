@@ -1,0 +1,60 @@
+---
+title: &TITLE Mattia Piazza
+last: Piazza
+first: Mattia
+people_group: "researcher"
+email: "matia.piazza@unitn.it"
+education:
+  - M.S. Mechatronics Engineering | University of Trento | 2020 <br> B.S. Mechanical Engineering | University of Udine | 2017
+subtitle: "PhD Candidate in System Engineering"
+description: ""
+project: "neu4mes"
+affiliation: University of Trento
+image: avatar.jpg
+# listing:
+#   id: pubs
+#   template: ../../_ejs/publications-people.ejs 
+#   contents: 
+#     - "../../../publications/**/*.qmd"
+#     - "!../../../publications/_template/"
+#   sort: "pub_number desc"
+#   # sort-ui: true
+#   filter-ui: true
+#   include:
+#     author: *TITLE
+#   fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mattia.piazza@unitn.it
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=_csJIOYAAAAJ&hl=it&oi=ao
+    - icon: github
+      text: GitHub 
+      href: https://github.com/Mattiapzz
+---
+
+<hr>
+
+
+:::{#about}
+
+Mattia Piazza is a PhD candidate in System Engineering at the University of Trento, Italy. His research focuses on the development ADAS and autonomous driving systems with applications in both simulated and real-world environments. 
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

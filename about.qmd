@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-About this site
+Welcome to the Neu4mes Research Group!
+
+We are dedicated to advancing the field of physically informed neural networks for mechanical and mechatronic systems. Our team of researchers and students work collaboratively to develop innovative solutions that bridge the gap between traditional engineering methods and modern machine learning techniques.
+
+Our research focuses on leveraging the power of neural networks to model, simulate, and optimize complex mechanical systems. By integrating physical laws and constraints into our models, we aim to enhance their accuracy, reliability, and interpretability.
+
+We believe in fostering a collaborative and inclusive research environment. Our group actively engages with the broader scientific community through publications, conferences, and workshops. We also prioritize mentoring and supporting the next generation of researchers in this exciting field.
