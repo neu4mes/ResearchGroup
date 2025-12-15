@@ -1,7 +1,7 @@
 name: Render and deploy Quarto site
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
