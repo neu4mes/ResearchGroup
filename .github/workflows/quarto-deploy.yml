@@ -24,6 +24,9 @@ jobs:
       - name: Verify Quarto Installation
         run: quarto --version
 
+      - name: Add quarto extensions
+        run: quarto add quarto-ext/fontawesome
+
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         with:
