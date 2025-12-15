@@ -10,10 +10,14 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
+        
+      - name: Verify Quarto Installation
+        run: quarto --version
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
