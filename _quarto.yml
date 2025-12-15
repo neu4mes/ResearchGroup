@@ -2,12 +2,41 @@ project:
   type: website
 
 website:
-  title: "ResearchGroup"
+  title: "Neu4mes Research Group"
+  description: "Research Group focused on Phisically Informed Neural Networks for Mechanical and Mechatronic Systems"
+  favicon: /assets/images/logomodely.png
+  body-header: | 
+    This page brought to you by <https://example.com>
+  margin-header: |
+    ![Logo image](/assets/images/logomodely.png)
+  # image: /assets/images/<file>.png
+  # site-url: https://<owner>.github.io/<repository>
+  # repo-url: https://github.com/<owner>/<repository>
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    left: |
+      Powered by [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) .
+    center: |
+      &copy; []{#current-year} Mattia PIAZZA.
+    right: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: members.qmd
+        text: Members
+      - href: contacts.qmd
+        text: Contacts
 
 format:
   html:
