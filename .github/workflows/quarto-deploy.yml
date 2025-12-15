@@ -10,33 +10,13 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup-quarto@v2
+        uses: quarto-dev/quarto-actions/setup@v2
+      - run: |
+          quarto --version
 
-      - name: Render Quarto site
-        run: |
-          # Render the website (Quarto's default site output dir is _site)
-          quarto render --no-cache
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: _site
-
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-      contents: read
-    steps:
-      - name: Configure Pages
-        uses: actions/configure-pages@v3
-
-      - name: Deploy to Pages
-        uses: actions/deploy-pages@v1
+          to: html # If set, it will be equivalent to `quarto render --to html`
+          path: source-folder # By default, the current working dir is used i.e `quarto render .`
