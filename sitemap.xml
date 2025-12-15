@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Mattiapzz.github.io/ResearchGroup/about.html</loc>
-    <lastmod>2025-12-15T16:08:41.494Z</lastmod>
+    <loc>https://Mattiapzz.github.io/ResearchGroup/publications.html</loc>
+    <lastmod>2025-12-15T17:31:45.231Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Mattiapzz.github.io/ResearchGroup/people/piazza-mattia/index.html</loc>
+    <lastmod>2025-12-15T17:31:45.230Z</lastmod>
   </url>
   <url>
     <loc>https://Mattiapzz.github.io/ResearchGroup/index.html</loc>
-    <lastmod>2025-12-15T16:08:41.497Z</lastmod>
+    <lastmod>2025-12-15T17:31:45.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Mattiapzz.github.io/ResearchGroup/about.html</loc>
+    <lastmod>2025-12-15T17:31:45.219Z</lastmod>
   </url>
   <url>
     <loc>https://Mattiapzz.github.io/ResearchGroup/contacts.html</loc>
-    <lastmod>2025-12-15T16:08:41.497Z</lastmod>
+    <lastmod>2025-12-15T17:31:45.223Z</lastmod>
   </url>
   <url>
-    <loc>https://Mattiapzz.github.io/ResearchGroup/members.html</loc>
-    <lastmod>2025-12-15T16:08:41.498Z</lastmod>
+    <loc>https://Mattiapzz.github.io/ResearchGroup/people/index.html</loc>
+    <lastmod>2025-12-15T17:31:45.224Z</lastmod>
   </url>
   <url>
-    <loc>https://Mattiapzz.github.io/ResearchGroup/publications.html</loc>
-    <lastmod>2025-12-15T16:08:41.498Z</lastmod>
+    <loc>https://Mattiapzz.github.io/ResearchGroup/people/rosati-papini-gastone-pietro/index.html</loc>
+    <lastmod>2025-12-15T17:31:45.230Z</lastmod>
   </url>
 </urlset>

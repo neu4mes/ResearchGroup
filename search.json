@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "About this site\n\n\n\n Back to top"
+    "text": "Our research publications\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "people/piazza-mattia/index.html#education",
+    "href": "people/piazza-mattia/index.html#education",
+    "title": "Mattia Piazza",
+    "section": "Education",
+    "text": "Education\nM.S. Mechatronics Engineering | University of Trento | 2020  B.S. Mechanical Engineering | University of Udine | 2017"
+  },
+  {
+    "objectID": "people/piazza-mattia/index.html#group-publications",
+    "href": "people/piazza-mattia/index.html#group-publications",
+    "title": "Mattia Piazza",
+    "section": "Group Publications",
+    "text": "Group Publications"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ResearchGroup",
+    "title": "Neu4mes Research Group",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+    "text": "Welcome to the Neu4mes Research Group website!\nWe are dedicated to advancing the field of physically informed neural networks for mechanical and mechatronic systems. Our team of researchers and students work collaboratively to develop innovative solutions that bridge the gap between traditional engineering methods and modern machine learning techniques.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to the Neu4mes Research Group!\nWe are dedicated to advancing the field of physically informed neural networks for mechanical and mechatronic systems. Our team of researchers and students work collaboratively to develop innovative solutions that bridge the gap between traditional engineering methods and modern machine learning techniques.\nOur research focuses on leveraging the power of neural networks to model, simulate, and optimize complex mechanical systems. By integrating physical laws and constraints into our models, we aim to enhance their accuracy, reliability, and interpretability.\nWe believe in fostering a collaborative and inclusive research environment. Our group actively engages with the broader scientific community through publications, conferences, and workshops. We also prioritize mentoring and supporting the next generation of researchers in this exciting field.\n\n\n\n Back to top"
   },
   {
     "objectID": "contacts.html",
@@ -21,17 +42,38 @@
     "text": "gastone.rosatipapini@unitn.it\n\n\n   +39 0461 285352\n\n\n   Department of Industrial Engineering, Via Sommarive 9, 38123, Trento (TN), Italy\n\n\n    \n  \n\n\n123moviesmap for website\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "members.html",
-    "href": "members.html",
-    "title": "Members",
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "Our Team",
     "section": "",
-    "text": "About the team members\n\n\n\n Back to top"
+    "text": "Gastone Pietro Rosati Papini \n            \n               \n            \n              Associate Professor in Applied mechanics, University of Trento Post-Doc, PERCRO laboratory, Sant’Anna University\n            \n                \n            \n              \n              \n                \n                \n                  Ph.D. in Emerging Digital Technologies | Sant’Anna University | 2016  M.S. Automation Engineering | University of Pisa | 2011  B.S. Software Engineering | University of Pisa | 2007\n                  \n                    \n                \n                  \n\n            \n            \n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "people/index.html#principal-investigator",
+    "href": "people/index.html#principal-investigator",
+    "title": "Our Team",
     "section": "",
-    "text": "Our research publications\n\n\n\n Back to top"
+    "text": "Gastone Pietro Rosati Papini \n            \n               \n            \n              Associate Professor in Applied mechanics, University of Trento Post-Doc, PERCRO laboratory, Sant’Anna University\n            \n                \n            \n              \n              \n                \n                \n                  Ph.D. in Emerging Digital Technologies | Sant’Anna University | 2016  M.S. Automation Engineering | University of Pisa | 2011  B.S. Software Engineering | University of Pisa | 2007\n                  \n                    \n                \n                  \n\n            \n            \n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/index.html#research-scientists",
+    "href": "people/index.html#research-scientists",
+    "title": "Our Team",
+    "section": "Research Scientists",
+    "text": "Research Scientists\n\n\n\n  \n   \n\n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Mattia Piazza \n            \n               \n            \n              PhD Candidate in System Engineering\n            \n                \n            \n              \n              \n                \n                \n                  M.S. Mechatronics Engineering | University of Trento | 2020  B.S. Mechanical Engineering | University of Udine | 2017\n                  \n                    \n                \n                  \n\n            \n            \n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/rosati-papini-gastone-pietro/index.html#education",
+    "href": "people/rosati-papini-gastone-pietro/index.html#education",
+    "title": "Gastone Pietro Rosati Papini",
+    "section": "Education",
+    "text": "Education\nPh.D. in Emerging Digital Technologies | Sant’Anna University | 2016  M.S. Automation Engineering | University of Pisa | 2011  B.S. Software Engineering | University of Pisa | 2007"
+  },
+  {
+    "objectID": "people/rosati-papini-gastone-pietro/index.html#group-publications",
+    "href": "people/rosati-papini-gastone-pietro/index.html#group-publications",
+    "title": "Gastone Pietro Rosati Papini",
+    "section": "Group Publications",
+    "text": "Group Publications"
   }
 ]
