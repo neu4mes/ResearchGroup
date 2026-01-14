@@ -1,0 +1,55 @@
+---
+title: &TITLE Francesco Baroni ##
+last: Baroni ##
+first: Francesco ##
+people_group: "phdstudent" ## "postdoc | gradstudent | alumni | pi | student" #
+email: francesco.baroni-1@studenti.unitn.it ##
+education:
+  - MS in Artificial Intelligence Systems | University of Trento | 2025  <br> BS in Computer Sciences | University of Trento | 2023
+subtitle: "PhD stundent"
+description: "Sometimes you gotta run before you can walk." ## Short description (optional) ##
+image: avatar.jpeg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:francesco.baroni-1@studenti.unitn.it ##
+---
+
+<hr>
+
+
+:::{#about}
+
+
+## Hello, World!
+
+**AI & Robotics**
+Currently exploring the intersection of `Artificial Intelligence` and `Robotics`, driven by curiosity and a passion for building intelligent systems.
+
+Always eager to learn, experiment, and deepen my understanding of `Machine Learning`, `Automation`, and `Intelligent Systems`.
+
+## Skills & Tools
+- **Programming:** Python, C/C++
+- **Robotics:** Simulation, Control Systems
+- **Tools:** Git, Linux, VS Code, ROS
+
+> *"There is no spoon."*  
+> — **The Matrix**
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

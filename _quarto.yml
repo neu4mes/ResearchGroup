@@ -24,7 +24,7 @@ website:
     left: |
       Powered by [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) .
     center: |
-      &copy; []{#current-year} Mattia PIAZZA.
+      &copy; []{#current-year} created by Mattia PIAZZA.
     right: |
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
   navbar:
@@ -37,6 +37,8 @@ website:
         text: Publications
       - href: people/index.qmd
         text: People
+      - href: neu4mes.qmd
+        text: Neu4mes
       - href: contacts.qmd
         text: Contacts
 

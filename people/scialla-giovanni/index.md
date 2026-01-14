@@ -1,0 +1,60 @@
+---
+title: &TITLE Giovanni Scialla ##
+last: Scialla ##
+first: Giovanni ##
+people_group: "phdstudent" ## "postdoc | gradstudent | alumni | pi | student" #
+email: giovanni.scialla@unitn.it ##
+education:
+  - MS in Artificial Intelligence Systems | University of Trento | 2024  <br> BS in Computer Engineering | University of Modena and Reggio Emilia | 2021  # i.e. PhD in Teology | University of Nowhere | 2024  <br> MS in Magical Application for Computers | University of Imagination | 2020  <br> BS in Sourcery and Algorithmic Arts | Fantasy State University | 2018
+subtitle: "PhD student" ## "Postdoctoral Fellow | Graduate Student | Principal Investigator | Student | Alumni" #
+description: "In case I don't see ya, good afternoon, good evening, and good night!" ## Short description (optional) ##
+image: avatar.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: giovanni.scialla@unitn.it ##
+---
+
+<hr>
+
+
+:::{#about}
+
+
+<br><br>
+
+- :student: I’m currently learning `Machine learning`, `Robotics` and `Controls`.
+- :nerd_face: This is my [GitHub](https://github.com/MisterMandarino).
+- :boom: You can visit [MY WEBSITE](https://mister-mandarino-github-io.vercel.app/).
+<br>
+
+## <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Programming_Languages.gif?raw=true" width = 50px>  </picture> Programming languages
+
+<p>
+	
+  ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+  ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+  ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) 
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+  
+</p>
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

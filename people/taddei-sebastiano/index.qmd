@@ -1,0 +1,49 @@
+---
+title: &TITLE Sebastiano Taddei ##
+last: Taddei ##
+first: Sebastiano ##
+people_group: "phdstudent" ## "postdoc | gradstudent | alumni | pi | student" #
+email: sebastiano.taddei@unitn.it ##
+education:
+  - Master Degree | University of Trento | 2022  <br> Bachelor Degree | University of Trento | 2020  # i.e. PhD in Teology | University of Nowhere | 2024  <br> MS in Magical Application for Computers | University of Imagination | 2020  <br> BS in Sourcery and Algorithmic Arts | Fantasy State University | 2018
+subtitle: "PhD candidate" ## "Postdoctoral Fellow | Graduate Student | Principal Investigator | Student | Alumni" #
+description: "PhD researcher in autonomous systems working on real-time motion planning and control for autonomous racing." ## Short description (optional) ##
+image: avatar.jpeg
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sebastiano.taddei@unitn.it ##
+---
+
+<hr>
+
+
+:::{#about}
+
+
+I am a PhD researcher in autonomous systems focusing on real-time motion
+planning and control for autonomous racing. My work combines model-based
+approaches and learning-based methods, with a strong emphasis on full-system
+integration and practical validation in simulation and on real platforms. I am
+particularly interested in building complete, real-time software systems that
+connect theory with experimental results.
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
