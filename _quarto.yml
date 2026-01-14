@@ -33,7 +33,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: publications.qmd
+      - href: publications/index.qmd
         text: Publications
       - href: people/index.qmd
         text: People

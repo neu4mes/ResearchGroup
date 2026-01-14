@@ -11,18 +11,18 @@ description: ""
 project: "neu4mes"
 affiliation: University of Trento
 image: avatar.jpg
-# listing:
-#   id: pubs
-#   template: ../../_ejs/publications-people.ejs 
-#   contents: 
-#     - "../../../publications/**/*.qmd"
-#     - "!../../../publications/_template/"
-#   sort: "pub_number desc"
-#   # sort-ui: true
-#   filter-ui: true
-#   include:
-#     author: *TITLE
-#   fields: [publication, title, categories, image, date, author]
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 page-layout: full
 about: 
   id: about
