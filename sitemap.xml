@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/publications/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.458Z</lastmod>
+  </url>
+  <url>
     <loc>https://neu4mes.github.io/ResearchGroup/publications.html</loc>
-    <lastmod>2026-01-14T19:00:37.431Z</lastmod>
+    <lastmod>2026-01-14T20:31:52.458Z</lastmod>
   </url>
   <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/people/rosati-papini-gastone-pietro/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/people/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.419Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/neu4mes.html</loc>
-    <lastmod>2026-01-14T19:00:37.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/contacts.html</loc>
-    <lastmod>2026-01-14T19:00:37.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/about.html</loc>
-    <lastmod>2026-01-14T19:00:37.415Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neu4mes.github.io/ResearchGroup/people/baroni-francesco/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.419Z</lastmod>
+    <loc>https://neu4mes.github.io/ResearchGroup/people/scialla-giovanni/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.452Z</lastmod>
   </url>
   <url>
     <loc>https://neu4mes.github.io/ResearchGroup/people/piazza-mattia/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.423Z</lastmod>
+    <lastmod>2026-01-14T20:31:52.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/people/baroni-francesco/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/about.html</loc>
+    <lastmod>2026-01-14T20:31:52.439Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/contacts.html</loc>
+    <lastmod>2026-01-14T20:31:52.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/neu4mes.html</loc>
+    <lastmod>2026-01-14T20:31:52.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/people/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/people/rosati-papini-gastone-pietro/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.450Z</lastmod>
   </url>
   <url>
     <loc>https://neu4mes.github.io/ResearchGroup/people/taddei-sebastiano/index.html</loc>
-    <lastmod>2026-01-14T19:00:37.431Z</lastmod>
+    <lastmod>2026-01-14T20:31:52.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neu4mes.github.io/ResearchGroup/publications/2025_RoadFrictionAware_IEEE_OJITS/index.html</loc>
+    <lastmod>2026-01-14T20:31:52.458Z</lastmod>
   </url>
 </urlset>

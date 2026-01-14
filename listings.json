@@ -1,9 +1,40 @@
 [
   {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_RoadFrictionAware_IEEE_OJITS/index.html"
+    ]
+  },
+  {
+    "listing": "/people/scialla-giovanni/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/piazza-mattia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/baroni-francesco/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/index.html",
     "items": [
       "/people/rosati-papini-gastone-pietro/index.html",
-      "/people/piazza-mattia/index.html"
+      "/people/piazza-mattia/index.html",
+      "/people/taddei-sebastiano/index.html",
+      "/people/baroni-francesco/index.html",
+      "/people/scialla-giovanni/index.html"
     ]
+  },
+  {
+    "listing": "/people/rosati-papini-gastone-pietro/index.html",
+    "items": [
+      "/publications/2025_RoadFrictionAware_IEEE_OJITS/index.html"
+    ]
+  },
+  {
+    "listing": "/people/taddei-sebastiano/index.html",
+    "items": []
   }
 ]

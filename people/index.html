@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -111,11 +111,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-researcher'] = new List('listing-researcher', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phdstudent .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phdstudent'] = new List('listing-phdstudent', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -196,7 +224,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -367,6 +395,49 @@ window.Quarto = {
       
     </div>
   
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/taddei-sebastiano/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Sebastiano Taddei" src="../people/taddei-sebastiano/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Sebastiano Taddei<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              PhD candidate<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  Master Degree | University of Trento | 2022  <br> Bachelor Degree | University of Trento | 2020<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
     
   
 </div>
@@ -377,8 +448,104 @@ window.Quarto = {
 </section>
 <section id="phd-students" class="level2">
 <h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
-<div id="phdstudent">
+<div id="listing-phdstudent" class="quarto-listing quarto-listing-container-custom">
 
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/baroni-francesco/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Francesco Baroni" src="../people/baroni-francesco/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Francesco Baroni<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              PhD stundent<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  MS in Artificial Intelligence Systems | University of Trento | 2025  <br> BS in Computer Sciences | University of Trento | 2023<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/scialla-giovanni/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Giovanni Scialla" src="../people/scialla-giovanni/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Giovanni Scialla<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              PhD student<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  MS in Artificial Intelligence Systems | University of Trento | 2024  <br> BS in Computer Engineering | University of Modena and Reggio Emilia | 2021<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
 
