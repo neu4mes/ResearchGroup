@@ -1,0 +1,57 @@
+---
+title: &TITLE Filippo Faccini ##
+last: Faccini ##
+first: Filippo ##
+people_group: "phdstudent" ## "postdoc | gradstudent | alumni | pi | student" #
+email: filippo.faccini@unitn.it ##
+education:
+  - MS in Mechatronics Engineering | University of Trento | 2025  <br> BS in Industrial Engineering | University of Trento | 2022
+subtitle: "PhD student"
+description: "Sometimes you gotta run before you can walk." ## Short description (optional) ##
+image: avatar.jpeg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:filippo.faccini@unitn.it ##
+    - icon: github
+      text: GitHub 
+      href: https://github.com/Pippo98
+---
+
+<hr>
+
+
+:::{#about}
+
+
+Filippo Faccini is a PhD student at the University of Trento (Italy). He received his master’s degree in Mechatronics Engineering from the University of Trento in 2025. His research focuses on motion planning and control for autonomous vehicles.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

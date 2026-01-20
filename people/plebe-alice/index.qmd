@@ -37,7 +37,7 @@ about:
     - icon: github
       text: GitHub 
       href: https://github.com/3lis
-    - icon: web
+    - icon: globe2
       text: Website 
       href: https://www.aliceplebe.com/
 ---

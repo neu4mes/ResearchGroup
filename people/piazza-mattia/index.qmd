@@ -39,6 +39,9 @@ about:
     - icon: github
       text: GitHub 
       href: https://github.com/Mattiapzz
+    - icon: globe2
+      text: Website 
+      href: https://mattiapzz.github.io/
 ---
 
 <hr>
