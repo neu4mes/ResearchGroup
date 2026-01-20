@@ -1,0 +1,74 @@
+---
+title: &TITLE Alice Plebe ##
+last: Plebe ##
+first: Alice ##
+people_group: "researcher" ## "postdoc | gradstudent | alumni | pi | student" #
+email: alice.plebe@unitn.it ##
+education:
+  - PhD in Computer Science | University of Trento | 2020  <br> MS in Computer Science | University of Catania | 2016 <br> BS in Computer Science | University of Catania | 2014
+subtitle: "RTdA Researcher"
+# description: "" ## Short description (optional) ##
+image: avatar.jpeg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mailto:alice.plebe@unitn.it
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=BIKC4EkAAAAJ&hl=en&oi=ao
+    - icon: github
+      text: GitHub 
+      href: https://github.com/3lis
+    - icon: web
+      text: Website 
+      href: https://www.aliceplebe.com/
+---
+
+<hr>
+
+
+:::{#about}
+
+I’m an assistant professor (RTDa) at the University of Trento, where I study how insights from nature can inspire the design of neural networks. My current research explores models informed and constrained by physical principles. Earlier in my career, I looked to human cognition for inspiration, developing autonomous driving agents and perception systems that used brain-like mechanisms and mental imagery to anticipate unforeseen scenarios.
+
+From 2024 to 2025, I was a research fellow in the Department of Computer Science at University College London, where I studied how large language models can reason like and collaborate with humans. My work there focused on LLMs in multi-agent systems and the role of trust in shaping effective collaboration between agents. I also examined how vision–language models mirror human biases, particularly in the spread of misinformation.
+
+In 2020, I was a visiting researcher at the Cognitive Robotics Lab at TU Delft, where I investigated how cognitive architectures can inform the design of neural networks for perception systems in autonomous vehicles.
+
+Beyond research, I explore the creative side of technology through 3D computer graphics, video game development, and architectural design. These pursuits often inspire fresh perspectives on my technical work.
+
+My pronouns are she/her.
+
+Visit my [website](https://www.aliceplebe.com/) for more information about my research, publications, and projects.
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
