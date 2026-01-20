@@ -6,7 +6,7 @@ people_group: "phdstudent" ## "postdoc | gradstudent | alumni | pi | student" #
 email: francesco.baroni-1@studenti.unitn.it ##
 education:
   - MS in Artificial Intelligence Systems | University of Trento | 2025  <br> BS in Computer Sciences | University of Trento | 2023
-subtitle: "PhD stundent"
+subtitle: "PhD student"
 description: "Sometimes you gotta run before you can walk." ## Short description (optional) ##
 image: avatar.jpeg
 listing:
