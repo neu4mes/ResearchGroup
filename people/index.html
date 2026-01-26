@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-researcher .list');
+    const listingTargetEl = window.document.querySelector('#listing-AssistantProf .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -111,11 +111,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-seniority"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-researcher'] = new List('listing-researcher', options);
+    window['quarto-listings']['listing-AssistantProf'] = new List('listing-AssistantProf', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-PostDoc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-seniority","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-PostDoc'] = new List('listing-PostDoc', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -258,7 +286,11 @@ window.Quarto = {
    
   <ul>
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
-  <li><a href="#research-scientists" id="toc-research-scientists" class="nav-link" data-scroll-target="#research-scientists">Research Scientists</a></li>
+  <li><a href="#research-scientists" id="toc-research-scientists" class="nav-link" data-scroll-target="#research-scientists">Research Scientists</a>
+  <ul class="collapse">
+  <li><a href="#assistant-professors" id="toc-assistant-professors" class="nav-link" data-scroll-target="#assistant-professors">Assistant Professors</a></li>
+  <li><a href="#postdoctoral-researchers" id="toc-postdoctoral-researchers" class="nav-link" data-scroll-target="#postdoctoral-researchers">Postdoctoral Researchers</a></li>
+  </ul></li>
   <li><a href="#phd-students" id="toc-phd-students" class="nav-link" data-scroll-target="#phd-students">PhD Students</a></li>
   </ul>
 </nav>
@@ -346,7 +378,111 @@ window.Quarto = {
 </section>
 <section id="research-scientists" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="research-scientists">Research Scientists</h2>
-<div id="listing-researcher" class="quarto-listing quarto-listing-container-custom">
+<section id="assistant-professors" class="level3">
+<h3 class="anchored" data-anchor-id="assistant-professors">Assistant Professors</h3>
+<div id="listing-AssistantProf" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/plebe-alice/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Alice Plebe" src="../people/plebe-alice/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Alice Plebe<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Assistant Professor RTDa<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  PhD in Computer Science | University of Trento | 2020  <br> MS in Computer Science | University of Catania | 2016 <br> BS in Computer Science | University of Catania | 2014<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/Sharifzadeh-Mojtaba/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Mojtaba Sharifzadeh" src="../people/Sharifzadeh-Mojtaba/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Mojtaba Sharifzadeh<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Assistant Professor RTDa<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  PhD in Industrial Engineering | University of Salerno | 2020  <br> MS in Systems and Control Engineering | Tabriz University of Tech. | 2015  <br> BS  in Systems and Control Engineering | University of Tabriz | 2012<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="postdoctoral-researchers" class="level3">
+<h3 class="anchored" data-anchor-id="postdoctoral-researchers">Postdoctoral Researchers</h3>
+<div id="listing-PostDoc" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
@@ -401,49 +537,6 @@ window.Quarto = {
       
       
       
-      <a href="../people/plebe-alice/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Alice Plebe" src="../people/plebe-alice/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Alice Plebe<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              RTdA Researcher<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  PhD in Computer Science | University of Trento | 2020  <br> MS in Computer Science | University of Catania | 2016 <br> BS in Computer Science | University of Catania | 2014<br>
-                  
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
       <a href="../people/taddei-sebastiano/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
@@ -467,7 +560,7 @@ window.Quarto = {
               <div class="listing-box-education">
                 
                 
-                  Master Degree | University of Trento | 2022  <br> Bachelor Degree | University of Trento | 2020<br>
+                  Ph.D. in Autonomous Systems | Polytechnic University of Bari | 2026 <br> Master Degree | University of Trento | 2022  <br> Bachelor Degree | University of Trento | 2020<br>
                   
                     
               </div>  
@@ -488,6 +581,7 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
 </section>
 <section id="phd-students" class="level2">
 <h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>

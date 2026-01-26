@@ -17,8 +17,9 @@
     "listing": "/people/index.html",
     "items": [
       "/people/rosati-papini-gastone-pietro/index.html",
-      "/people/piazza-mattia/index.html",
       "/people/plebe-alice/index.html",
+      "/people/Sharifzadeh-Mojtaba/index.html",
+      "/people/piazza-mattia/index.html",
       "/people/taddei-sebastiano/index.html",
       "/people/baroni-francesco/index.html",
       "/people/filippo-faccini/index.html",
@@ -27,6 +28,10 @@
   },
   {
     "listing": "/people/baroni-francesco/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/Sharifzadeh-Mojtaba/index.html",
     "items": []
   },
   {
