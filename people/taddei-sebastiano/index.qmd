@@ -6,7 +6,7 @@ people_group: "PostDoc" ## "postdoc | gradstudent | alumni | pi | student" #
 email: sebastiano.taddei@unitn.it ##
 education:
   - Ph.D. in Autonomous Systems | Polytechnic University of Bari | 2026 <br> Master Degree | University of Trento | 2022  <br> Bachelor Degree | University of Trento | 2020  # i.e. PhD in Teology | University of Nowhere | 2024  <br> MS in Magical Application for Computers | University of Imagination | 2020  <br> BS in Sourcery and Algorithmic Arts | Fantasy State University | 2018
-subtitle: "PhD candidate" ## "Postdoctoral Fellow | Graduate Student | Principal Investigator | Student | Alumni" #
+subtitle: "Research fellow" ## "Postdoctoral Fellow | Graduate Student | Principal Investigator | Student | Alumni" #
 description: "PhD researcher in autonomous systems working on real-time motion planning and control for autonomous racing." ## Short description (optional) ##
 image: avatar.jpeg
 listing:
@@ -31,6 +31,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:sebastiano.taddei@unitn.it ##
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=oQH8Y2EAAAAJ&hl=en&oi=ao
 ---
 
 <hr>

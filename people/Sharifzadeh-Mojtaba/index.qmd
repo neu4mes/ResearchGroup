@@ -33,7 +33,7 @@ about:
       href: mailto:mojtaba.sharifzadeh@unitn.it
     - text: Google Scholar
       icon: mortarboard 
-      href: https://scholar.google.com/citations?user=BIKC4EkAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?user=cCNqOrEAAAAJ&hl=en&oi=ao
 
 ---
 
