@@ -1,0 +1,42 @@
+---
+title: &TITLE Gioele Defrancesco ##
+last: Defrancesco ##
+first: Gioele ##
+people_group: "phdstudent" ## 
+email: gioele.defrancesco@unitn.it ##
+education:
+  - M.S. in Mechatronics Engineering | University of Trento | 2025  <br> B.S. in Industrial Engineering | University of Trento | 2022  # 
+subtitle: "PhD stundent" ## 
+description: "" ## Short description (optional) ##
+image: gioele.jpeg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: gioele.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:gioele.defrancesco@unitn.it ##
+---
+
+<hr>
+
+
+:::{#about}
+
+I received my MSc degree in Mechatronics Engineering, with a focus on Intelligent Vehicles, from the University of Trento, Italy. I am currently a Ph.D. student, and my research focuses on the integration of neural networks into vehicle modelling and control. My main research interests include vehicle dynamics and autonomous driving systems.
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
