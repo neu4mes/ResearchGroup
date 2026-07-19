@@ -1,0 +1,48 @@
+---
+title: Teaching
+---
+
+This page collects courses and educational material from the Neu4mes group.
+
+## PhD course: Physics-Informed Machine Learning
+
+A 5-day PhD course on combining physics with machine learning, with applications to robotics and autonomous systems.
+
+### Motivation and overview
+
+Why combine physics with machine learning? The course introduces the motivation behind Physics-Informed Machine Learning, presents real-world applications in robotics and autonomous systems, outlines the overall structure of the programme, and explores physics-guided learning methods.
+
+Topics covered:
+
+- Physics-informed learning paradigms
+- Physics-guided features and datasets
+- Physics-encoded learning architectures
+- Model-structured neural networks (MSNN)
+- Hands-on tutorials with the [nnodely](https://github.com/tonegas/nnodely) framework
+- Applications to modeling, planning, control, and state estimation of physical systems
+
+### Lecture 1 — Motivation and overview
+
+{{< video https://www.youtube.com/watch?v=BVkGy4oz3Lg >}}
+
+### Entire course link on YouTube
+
+Watch the full course on YouTube: [Physics-Informed Machine Learning playlist](https://www.youtube.com/watch?v=BVkGy4oz3Lg&list=PLcgrvuVJuClg).
+
+### Slides
+
+Course slides (PDF):
+
+- [Introduction](../publications/teaching/Physics-Informed%20Machine%20Learning/introduction.pdf)
+- [Physics-guided inputs](../publications/teaching/Physics-Informed%20Machine%20Learning/physics_guided_inputs.pdf)
+- [Physics-informed loss](../publications/teaching/Physics-Informed%20Machine%20Learning/physics_informed_loss.pdf)
+- [Physics-encoded architectures — Part I](../publications/teaching/Physics-Informed%20Machine%20Learning/physics_encoded_architectures_part_I.pdf)
+- [Physics-encoded architectures — Part II](../publications/teaching/Physics-Informed%20Machine%20Learning/physics_encoded_architectures_part_II.pdf)
+- [Physics-encoded architectures — Part III](../publications/teaching/Physics-Informed%20Machine%20Learning/physics_encoded_architectures_part_III.pdf)
+- [nnodely and applications](../publications/teaching/Physics-Informed%20Machine%20Learning/nnodely_and_applications.pdf)
+- [Outlook and future directions](../publications/teaching/Physics-Informed%20Machine%20Learning/outlook_future_directions.pdf)
+
+### Lecturers
+
+- [Dr. Mattia Piccinini](https://mattiapiccinini95.github.io/) (Technical University of Munich)
+- [Prof. Gastone Pietro Rosati Papini](https://tonegas.it/) (University of Trento)
