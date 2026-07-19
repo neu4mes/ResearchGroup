@@ -21,11 +21,9 @@ Topics covered:
 - Hands-on tutorials with the [nnodely](https://github.com/tonegas/nnodely) framework
 - Applications to modeling, planning, control, and state estimation of physical systems
 
-### Lecture 1 — Motivation and overview
+### Watch the course
 
 {{< video https://www.youtube.com/watch?v=BVkGy4oz3Lg >}}
-
-### Entire course link on YouTube
 
 Watch the full course on YouTube: [Physics-Informed Machine Learning playlist](https://www.youtube.com/watch?v=BVkGy4oz3Lg&list=PLcgrvuVJuClg).
 
