@@ -418,7 +418,7 @@
     "href": "people/index.html#research-fellows",
     "title": "Our Team",
     "section": "Research Fellows",
-    "text": "Research Fellows\n\n\n\n  \n   \n\n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Sabrina Ciuffoletti \n            \n               \n            \n              Research Fellow\n            \n\n            \n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
+    "text": "Research Fellows\n\n\n\n  \n   \n\n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Alireza Aghasharif \n            \n               \n            \n              Research Fellow\n            \n\n            \n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Sabrina Ciuffoletti \n            \n               \n            \n              Research Fellow\n            \n\n            \n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#external-project-collaborators",
@@ -470,41 +470,6 @@
     "text": "Mojtaba’s Group Publications\n\n\n    \n      \n      \n    \n\n\n\n    \n    \n    \n        \n            \n            \n                \n                    \n                    \n                \n            \n            \n        \n        \n            \n                Model-Structured Neural Networks for Road Condition Identification in AI-Enabled Digital Twin Architecture\n            \n            \n            \n                \n                    Mojtaba Sharifzadeh, \n                    Filippo Faccini, \n                    Giovanni Maria Francesco La Scala, \n                    Alice Plebe, \n                    Mattia Piccinini, \n                    Gastone Pietro Rosati Papini \n            \n            \n            \n                \n                \n                    ICRA 2026 — Workshop on AI-Driven Automation and Robotic System Integration with Digital Twins (2026)\n                \n            \n            \n            \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                    PDF \n                \n                \n            \n        \n    \n    \n    \n    \n    \n        \n            \n            \n                \n                    \n                    \n                \n            \n            \n        \n        \n            \n                nnodely: A Framework for Structured Neural Networks in Robotics\n            \n            \n            \n                \n                    Gastone Pietro Rosati Papini, \n                    Alice Plebe, \n                    Mojtaba Sharifzadeh, \n                    Sebastiano Taddei, \n                    Mattia Piazza, \n                    Giovanni Scialla, \n                    Francesco Baroni, \n                    Giovanni Maria Francesco La Scala, \n                    Davide De Martini, \n                    Gioele Defrancesco, \n                    Filippo Faccini \n            \n            \n            \n                \n                \n                    ICRA 2026 — RoSE'26, 8th International Workshop on Robotics Software Engineering (2026)\n                \n            \n            \n            \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                    PDF \n                \n                \n            \n        \n    \n    \n    \n    \n    \n        \n            \n            \n                \n                    \n                    \n                \n            \n            \n        \n        \n            \n                nnodely – neuralize your model\n            \n            \n            \n                \n                    Gastone Pietro Rosati Papini, \n                    Alice Plebe, \n                    Mojtaba Sharifzadeh, \n                    Mattia Piazza, \n                    Sebastiano Taddei, \n                    Giovanni Scialla, \n                    Francesco Baroni, \n                    Davide De Martini, \n                    Giovanni Maria Francesco La Scala, \n                    Gioele Defrancesco, \n                    Filippo Faccini \n            \n            \n            \n                \n                \n                    ICRA 2026 — Late breaking results (2026)\n                \n            \n            \n            \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                    PDF \n                \n                \n            \n        \n    \n    \n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "framework/index.html",
-    "href": "framework/index.html",
-    "title": "Framework",
-    "section": "",
-    "text": "Within the Neu4mes project, the framework is the first main outcome: open-source software to design, train, validate, and deploy model-structured neural networks (MSNN) for modelling and control of autonomous mechanical systems.\nThe released implementation is named nnodely (“nn” can be read as “m”, forming Modely). It is the practical tool that supports the project methodology on real hardware and in the demonstrative case studies (wheel vehicles, quadruped robots, flying drones)."
-  },
-  {
-    "objectID": "framework/index.html#purpose",
-    "href": "framework/index.html#purpose",
-    "title": "Framework",
-    "section": "Purpose",
-    "text": "Purpose\nThe framework guides development from early experimentation through deployment on embedded platforms. In particular it provides:\n\nA library of neural models (NMs) and neural controllers (NCs) for components and complete devices, used as building blocks for full system models\nTools to investigate different neural modelling and control strategies and to validate stability and performance of models and closed-loop systems\nExport of trained networks for embedded use (standalone C code, FPGA targets, and interchange via ONNX and Functional Mock-up Units FMU)\nIntegration with external tools through APIs\n\nThe library is developed as an abstraction layer on top of existing deep-learning backends (such as Keras3.0 or PyTorch), so that the hybrid MSNN approach remains flexible and usable without rebuilding a general-purpose learning stack from scratch."
-  },
-  {
-    "objectID": "framework/index.html#development-phases-ph1ph6",
-    "href": "framework/index.html#development-phases-ph1ph6",
-    "title": "Framework",
-    "section": "Development phases (PH1–PH6)",
-    "text": "Development phases (PH1–PH6)\nThe nnodely development pipeline organises MSNN work in six phases from design to deployment, with iterative composition, retraining, and selective export:\n\n\n\n\n\n\n\n\n\nDescription\nPhase\n\n\n\n\nNeural model definition — MSNN structure, inputs/outputs, and high-level specification (Neural Model abstraction) from mechanical principles and domain knowledge\nPH1\n\n\nDataset creation — experimental time-series (CSV, DataFrames), splitting, resampling, and automatic temporal windows\nPH2\n\n\nNeural model training — managed training with custom losses, optimizers, recurrent networks, and closed-loop learning\nPH3\n\n\nNeural model validation — analysis beyond standard ML metrics (e.g. FVU, AIC, residual and domain-specific checks)\nPH4\n\n\nModel export — JSON, PyTorch modules, and ONNX for embedded deployment and third-party tools (selective export supported)\nPH5\n\n\nModel composition — interconnecting modules via connect and closed-loop links; staged training and assembly of complex systems (including controllers)\nPH6"
-  },
-  {
-    "objectID": "framework/index.html#implementation",
-    "href": "framework/index.html#implementation",
-    "title": "Framework",
-    "section": "Implementation",
-    "text": "Implementation\nA preliminary version of the Neu4mes framework is already available under the name nnodely, distributed on GitHub under the MIT license (pip install nnodely). Tutorials, API reference, and case-study material are published in the online documentation.\nDuring the project, the library is extended with models and controllers from the experimental domains and generalized for reuse by the scientific and industrial community."
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Contacts",
-    "section": "",
-    "text": "gastone.rosatipapini@unitn.it\n\n\n   +39 0461 285352\n\n\n   Department of Industrial Engineering, Via Sommarive 9, 38123, Trento (TN), Italy\n\n\n    \n  \n\n\n123moviesmap for website\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Neu4mes",
@@ -538,6 +503,55 @@
     "title": "Neu4mes",
     "section": "Funding",
     "text": "Funding\n\nWe acknowledge financial support under the FIS 2 Call, Grant Assignment Decree No. 1236 adopted on 01/08/2023 by the Italian Ministry of University and Research (MUR), for the project FIS-2023-03684 ‘Structured neural network framework for modeling and control of autonomous systems – Neu4mes’, CUP E53C24003800001."
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "gastone.rosatipapini@unitn.it\n\n\n   +39 0461 285352\n\n\n   Department of Industrial Engineering, Via Sommarive 9, 38123, Trento (TN), Italy\n\n\n    \n  \n\n\n123moviesmap for website\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "framework/index.html",
+    "href": "framework/index.html",
+    "title": "Framework",
+    "section": "",
+    "text": "Within the Neu4mes project, the framework is the first main outcome: open-source software to design, train, validate, and deploy model-structured neural networks (MSNN) for modelling and control of autonomous mechanical systems.\nThe released implementation is named nnodely (“nn” can be read as “m”, forming Modely). It is the practical tool that supports the project methodology on real hardware and in the demonstrative case studies (wheel vehicles, quadruped robots, flying drones)."
+  },
+  {
+    "objectID": "framework/index.html#purpose",
+    "href": "framework/index.html#purpose",
+    "title": "Framework",
+    "section": "Purpose",
+    "text": "Purpose\nThe framework guides development from early experimentation through deployment on embedded platforms. In particular it provides:\n\nA library of neural models (NMs) and neural controllers (NCs) for components and complete devices, used as building blocks for full system models\nTools to investigate different neural modelling and control strategies and to validate stability and performance of models and closed-loop systems\nExport of trained networks for embedded use (standalone C code, FPGA targets, and interchange via ONNX and Functional Mock-up Units FMU)\nIntegration with external tools through APIs\n\nThe library is developed as an abstraction layer on top of existing deep-learning backends (such as Keras3.0 or PyTorch), so that the hybrid MSNN approach remains flexible and usable without rebuilding a general-purpose learning stack from scratch."
+  },
+  {
+    "objectID": "framework/index.html#development-phases-ph1ph6",
+    "href": "framework/index.html#development-phases-ph1ph6",
+    "title": "Framework",
+    "section": "Development phases (PH1–PH6)",
+    "text": "Development phases (PH1–PH6)\nThe nnodely development pipeline organises MSNN work in six phases from design to deployment, with iterative composition, retraining, and selective export:\n\n\n\n\n\n\n\n\n\nDescription\nPhase\n\n\n\n\nNeural model definition — MSNN structure, inputs/outputs, and high-level specification (Neural Model abstraction) from mechanical principles and domain knowledge\nPH1\n\n\nDataset creation — experimental time-series (CSV, DataFrames), splitting, resampling, and automatic temporal windows\nPH2\n\n\nNeural model training — managed training with custom losses, optimizers, recurrent networks, and closed-loop learning\nPH3\n\n\nNeural model validation — analysis beyond standard ML metrics (e.g. FVU, AIC, residual and domain-specific checks)\nPH4\n\n\nModel export — JSON, PyTorch modules, and ONNX for embedded deployment and third-party tools (selective export supported)\nPH5\n\n\nModel composition — interconnecting modules via connect and closed-loop links; staged training and assembly of complex systems (including controllers)\nPH6"
+  },
+  {
+    "objectID": "framework/index.html#implementation",
+    "href": "framework/index.html#implementation",
+    "title": "Framework",
+    "section": "Implementation",
+    "text": "Implementation\nA preliminary version of the Neu4mes framework is already available under the name nnodely, distributed on GitHub under the MIT license (pip install nnodely). Tutorials, API reference, and case-study material are published in the online documentation.\nDuring the project, the library is extended with models and controllers from the experimental domains and generalized for reuse by the scientific and industrial community."
+  },
+  {
+    "objectID": "people/Alireza-Aghasharif/index.html#education",
+    "href": "people/Alireza-Aghasharif/index.html#education",
+    "title": "Alireza Aghasharif",
+    "section": "Education",
+    "text": "Education\nM.Sc. Management and Industrial Systems Engineering | University of Trento | 2024  B.Sc. Mechanical Engineering–Biosystems | University of Tehran | 2021"
+  },
+  {
+    "objectID": "people/Alireza-Aghasharif/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications",
+    "href": "people/Alireza-Aghasharif/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications",
+    "title": "Alireza Aghasharif",
+    "section": "Alireza’s Group Publications",
+    "text": "Alireza’s Group Publications\n\n\n    \n      \n      \n    \n\n\n\n    \n    \n\nNo matching items"
   },
   {
     "objectID": "people/baroni-francesco/index.html#hello-world",

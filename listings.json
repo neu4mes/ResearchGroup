@@ -66,6 +66,7 @@
       "/people/filippo-faccini/index.html",
       "/people/la-scala-giovanni-maria-francesco/index.html",
       "/people/scialla-giovanni/index.html",
+      "/people/Alireza-Aghasharif/index.html",
       "/people/ciuffoletti-sabrina/index.html",
       "/people/mauro-dalio/index.html",
       "/people/mattia-piccinini/index.html"
@@ -93,6 +94,10 @@
       "/publications/posters/2026-icra-workshop-rose26/index.html",
       "/publications/posters/2026-icra-lbr-msnn-overview/index.html"
     ]
+  },
+  {
+    "listing": "/people/Alireza-Aghasharif/index.html",
+    "items": []
   },
   {
     "listing": "/people/baroni-francesco/index.html",
