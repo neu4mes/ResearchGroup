@@ -1,0 +1,61 @@
+---
+title: &TITLE Alireza Aghasharif ##
+last: Aghasharif ##
+first: Alireza ##
+people_group: "ResearchFellow" ## "postdoc | gradstudent | alumni | pi | student" #
+email: alireza.aghasharif@unitn.it ##
+education:
+  - M.Sc. Management and Industrial Systems Engineering | University of Trento | 2024 <br> B.Sc. Mechanical Engineering–Biosystems | University of Tehran | 2021
+subtitle: "Research Fellow"
+# description: "" ## Short description (optional) ##
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:alireza.aghasharif@unitn.it
+    # - text: Google Scholar
+    #   icon: mortarboard 
+    #   href: https://scholar.google.com/citations?user=cCNqOrEAAAAJ&hl=en&oi=ao
+
+---
+
+<hr>
+
+
+:::{#about}
+
+Alireza Aghasharif is a Junior Researcher at the University of Trento. He received his BSc in Mechanical Engineering–Biosystems from the University of Tehran, Iran, in 2021, and his MSc in Management and Industrial Systems Engineering from the University of Trento, Italy, in 2024. During his master’s studies, he completed an Erasmus exchange at the University of Stavanger, Norway, and carried out his thesis research as a visiting graduate student at the Delft Center for Systems and Control (DCSC) at Delft University of Technology in the Netherlands.
+
+His research focuses on energy-based modeling at the intersection of system identification, convex optimization, and scientific machine learning.
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
