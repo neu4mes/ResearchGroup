@@ -8,7 +8,7 @@ education:
   - M.Sc. Management and Industrial Systems Engineering | University of Trento | 2024 <br> B.Sc. Mechanical Engineering–Biosystems | University of Tehran | 2021
 subtitle: "Research Fellow"
 # description: "" ## Short description (optional) ##
-image: avatar.png
+image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications.ejs 
@@ -26,7 +26,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
