@@ -3,6 +3,7 @@ from: markdown+tex_math_single_backslash
 project:
   type: website
   resources:
+    - google53a638bdc004db0b.html
     - assets/images/logo_noinfo.png
     - assets/images/loghiFIS.png
     - publications/**/paper.pdf
@@ -21,6 +22,8 @@ include-in-header:
       <meta name="google-site-verification" content="j_gTCzWnr1jevnfvO9Y_sxECPpvnmmr3i7nuJjhDkiw" />
 website:
   title: neu4mes
+  site-url: https://neu4mes.github.io/
+  repo-url: https://github.com/neu4mes/neu4mes.github.io
   google-analytics: "G-M9FJPLSSCF"
   description: "Research group focused on model-structured neural networks (MSNN) for mechanical and mechatronic systems"
   favicon: /assets/images/neu4mes_minilogo.png
